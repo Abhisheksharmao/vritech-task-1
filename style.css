@@ -1,11 +1,4 @@
-@media screen and(min-width: 600px) {
-    .sales {
-        margin-left: 20px;
-    }
-    .soft{
-        margin-left: 20px;
-    }
-}
+
 
 
 .cont1 {
@@ -43,6 +36,47 @@
 
 .soft {
     margin-left: 120px;
+}
+
+@media screen and (max-width:600px) {
+    .comut {
+        margin-left: 10px;
+    }
+
+    .sales {
+        margin-left: 20px;
+    }
+
+    .soft {
+        margin-left: 20px;
+    }
+    .soft img{
+        width: 50px;
+    }
+    .sales img{
+        width: 50px;
+    }
+    .comut img{
+        width: 50px;
+    }
+    .soft h2{
+        font-size: 15px;
+    }
+    .sales h2{
+        font-size: 15px;
+    }
+    .comut h2{
+        font-size: 15px;
+    }
+    .soft p{
+        font-size: 12px;
+    }
+    .sales p{
+        font-size: 12px;
+    }
+    .comut p{
+        font-size: 12px;
+    }
 }
 
 h1 {
